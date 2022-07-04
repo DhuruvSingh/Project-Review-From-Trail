@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <h1 id="title">
+      Survay Form
+    </h1>
+    <p id="description">This form is to catch names, emails and phone numbers of our friends</p>
+
+    <form action="GET" id="survey-form" >
+      <label for="text" id="name-label">Name</label><br>
+      <input type="text" id="name" placeholder="Please enter your name" required><br>
+      <label for="email" id="email-label">Email</label><br>
+      <input type="email"  id="email" placeholder="please enter your email" required><br>
+      <label for="number" id="number-label">Contact Number</label><br>
+      <input type="number" min="1" max="10" id="number" placeholder="please enter your contact number" required><br>
+      <select name="dropdown" id="dropdown">
+        <option value="1">Good</option>
+        <option value="1">Bad</option>
+      </select><br>
+      
+      <div class="btn-group">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <label><input type="radio" value="done" class="btn-group" name="done" >Done</label>
+        <br>
+        <label><input type="radio" value="not-done" class="btn-group" name="not-done" >Not Done</label>
+        <br>
+      </div><br>
+
+      <div class="btn-group">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <label><input type="radio" value="This" class="btn-group" name="This" >This</label>
+        <br>
+        <label><input type="radio" value="that" class="btn-group" name="that" >that</label>
+        <br>
+      </div><br>
+    
+      <label for="1"><input type="checkbox" value="1">This is Hello</label><br>
+      <label for="2"><input type="checkbox" value="2">This is Yellow</label><br>
+      <label for="3"><input type="checkbox" value="3">This is Red</label><br>
+      <label for="4"><input type="checkbox" value="4">This is Green</label><br>
+      <label for="5"><input type="checkbox" value="5">This is Maroon</label><br>  
+
+      <textarea name="aditional comment" id="" cols="30" rows="10"></textarea>
+
+      <button id="submit" >Submit</button>
+      
+
+
+    </form>
+
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>
